@@ -5,6 +5,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Titulo from './components/Titulo/Titulo'
 
 function App() {
+  
     let tituloApp = 'TAZA TAZA';
     let subtitApp = '¡llevate una a casa!';
   return (
@@ -12,7 +13,7 @@ function App() {
       <div>
         <Titulo titulo={tituloApp} subtitulo={subtitApp}/>
       </div>
-     <NavBar/>
+      <NavBar/>
      <ItemListContainer/>
     </div>
   );
