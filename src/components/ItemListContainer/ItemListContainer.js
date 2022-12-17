@@ -1,11 +1,12 @@
 import './ItemListContainer';
+import React from 'react';
+import Contador from '../Contador/Contador';
 
-function ItemListContainer() {
-  return (
-    <div className="ItemListContainer">
-    Pronto podras ver nuestros Productos
-    </div>
-  );
+export const ItemListContainer = ({texto})=>{
+  const agregar =(quantity)=>{
+    console.log ('Compraste ${quantity}unidades');
+  }
+  
 }
 
 export default ItemListContainer;

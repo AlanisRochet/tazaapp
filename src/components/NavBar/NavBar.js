@@ -8,11 +8,11 @@ function CollapsibleExample() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Menu</Navbar.Brand>
+          <Navbar.Brand href="App.js"> Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Productos</Nav.Link>
+              <Nav.Link href="Card.js">Productos</Nav.Link>
               <Nav.Link href="#pricing">Contactanos</Nav.Link>
               <NavDropdown title="Mandanos tu Diseño" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Tazas</NavDropdown.Item>
