@@ -1,13 +1,22 @@
-import './CartWidget.css';
+import React from 'react';
+import Badge from 'react-bootstrap/Badge';
+
 
 function CartWidget() {
-  return (
-    <div>
-    <a href= "CartWidget.js" class="button"><span class="material-symbols-outlined">
-shopping_cart_checkout
-</span></a>
-  </div>
-  );
+    return (
+        <div className='cart-widget'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" strokeWidth="1.75" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="6" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+            </svg>
+            
+            <Badge pill bg="danger">1</Badge>
+        </div>
+    );
 }
+
 
 export default CartWidget;

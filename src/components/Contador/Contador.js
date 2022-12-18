@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
 
 export const Contador =({initial, stock, agregar})=>{
     const[count, setCount]= useState (initial);
