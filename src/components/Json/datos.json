@@ -1,0 +1,18 @@
+[
+  {"id":"1", "name": "taza 1", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img", "detalle":"taza x"},
+  {"id":"2", "name": "taza 2", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"3", "name": "taza 3", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"4", "name": "taza 4", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"5", "name": "taza 5", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"6", "name": "taza 6", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"7", "name": "taza 7", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"8", "name": "taza 8", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"9", "name": "taza 9", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"10", "name": "taza 10", "categoria":"taza", "stock":"5", "precio":"1950","img":"img","detalle":"taza x"},
+  {"id":"11", "name": "taza 11", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"12", "name": "taza 12", "categoria":"taza", "stock":"5", "precio":"1950","img":"img","detalle":"taza x"},
+  {"id":"13", "name": "taza 13", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"14", "name": "taza 14", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"15", "name": "taza 15", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"},
+  {"id":"16", "name": "taza 16", "categoria":"taza", "stock":"5", "precio":"1950", "img":"img","detalle":"taza x"}
+]

@@ -1,12 +1,15 @@
 import React from 'react';
-import Contador from '../Contador/Contador';
+import { Link } from 'react-router-dom';
+
 const Item=({info}) =>{
+ 
     return(
-        <div>
-            <h1>{info.name}</h1>
+
+      <Link to={`/detalle/${info.id}`}>
+            <h4>{info.name}</h4>
+            <img src={info.img}/>
             <p>{info.precio}</p>
-            <Contador initial={1} stock={5}/>
-        </div>
+      </Link>
     )
 }
 
