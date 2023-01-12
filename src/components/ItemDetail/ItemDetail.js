@@ -2,11 +2,15 @@
 import Contador from '../Contador/Contador';
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import { useCartContext } from '../../context/CartContext';
 
 export const ItemDetail =({data})=>{
-       const [goToCart, setGoToCart] = useState(false);
-  const onAdd =(quantity)=>{
+    const [goToCart, setGoToCart] = useState(false);
+    const{addProduct}=useCartContext();
+
+    const onAdd =(quantity)=>{
     setGoToCart(true);
+    addProduct(data,quantity)
   }
     return(
         <div>
